@@ -1,0 +1,37 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.hvr {
+  border-bottom: 2px solid transparent;
+}
+
+.hvr:hover {
+  border-bottom: 2px solid #1d4d43;
+  transition: border-bottom;
+  transition-duration: 2s;
+}
+
+.bdr {
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+.hovr:hover {
+  transform: scale(1.01);
+  border-radius: 1rem;
+}
+
+img {
+  cursor: pointer;
+}
+
+.btm {
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+
+.sd{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px inset;
+}
+

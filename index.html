@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | kyari</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- top line -->
+    <div class="bg-[#E7AB26] py-2 flex gap-x-3 justify-center">
+        <a href="index.html" class="text-white">
+            Free shipping on all orders above ₹399
+        </a>
+        <a href="index.html" class="underline">shop now</a>
+    </div>
+
+    <!-- Navbar -->
+    <header class="sticky top-0 z-50 bg-white">
+        <div class="flex items-center justify-between  px-[4%] py-7">
+            <div class="flex items-center gap-x-3">
+                <img src="https://kyari.co/cdn/shop/files/Group_1000009597.png?v=1729591918" alt="" class="w-28">
+                <a href="shop.html"
+                    class="hidden lg:flex items-center gap-x-2 text-[#424242] text-xl font-semibold uppercase">
+                    <span class="size-3 rounded-full bg-[#E7AB26]"></span>
+                    <span class="text-[1.1rem]">shop</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-5 rotate-90">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="hidden lg:block md:block">
+                <div class="flex lg:gap-x-10 md:gap-x-5">
+                    <a href="seller.html" class="text-[#424242] md:texts-[0.95rem] lg:text-[1.1rem] font-bold uppercase">Bestseller</a>
+                    <a href="order.html" class="text-[#424242] md:texts-[0.95rem] lg:text-[1.1rem] font-bold uppercase">corporate/bulk gifting</a>
+                    <a href="deal.html" class="text-[#424242] md:texts-[0.95rem] lg:text-[1.1rem] font-bold uppercase">deal if the day</a>
+                    <a href="" class="text-[#424242] md:texts-[0.95rem] lg:text-[1.1rem] font-bold uppercase">track your order</a>
+                </div>
+
+            </div>
+
+            <div class="flex items-center gap-x-3">
+                <svg class="hidden lg:block md:block" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10.5" cy="10.5" r="7.5" stroke="black" stroke-width="2" style="fill:none"></circle>
+                    <path
+                        d="M17.1213 15.2929L16.4142 14.5858L15 16L15.7071 16.7071L17.1213 15.2929ZM19.2426 20.2426C19.6331 20.6332 20.2663 20.6332 20.6568 20.2426C21.0473 19.8521 21.0473 19.219 20.6568 18.8284L19.2426 20.2426ZM15.7071 16.7071L19.2426 20.2426L20.6568 18.8284L17.1213 15.2929L15.7071 16.7071Z"
+                        fill="black" style="stroke:none"></path>
+                </svg>
+
+                <svg width="26" height="26" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    id="svgkp">
+                    <path
+                        d="M22.9129 12.935L13.7571 23.0474C13.5348 23.2929 13.1284 23.1084 13.1669 22.7794L14.0816 14.9731H10.6991C10.4034 14.9731 10.2484 14.6219 10.4478 14.4035L20.3133 3.59739C20.5589 3.32834 20.9984 3.58134 20.8891 3.92887L18.2354 12.3664H22.6607C22.9557 12.3664 23.1109 12.7163 22.9129 12.935Z"
+                        fill="#FEA203"></path>
+                    <path id="svgkp-path" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M16.6079 5.35819C16.4805 5.1933 16.3421 5.03582 16.1932 4.8869C15.2702 3.96387 14.0183 3.44531 12.7129 3.44531C11.4075 3.44531 10.1556 3.96387 9.2326 4.8869C8.30957 5.80993 7.79102 7.06183 7.79102 8.36719C7.79102 9.67255 8.30957 10.9244 9.2326 11.8475C9.48368 12.0986 9.75909 12.3197 10.0533 12.5086L11.0235 11.4503C10.7335 11.2914 10.4649 11.0911 10.227 10.8531C9.56766 10.1938 9.19727 9.29959 9.19727 8.36719C9.19727 7.43479 9.56766 6.54057 10.227 5.88127C10.8863 5.22196 11.7805 4.85156 12.7129 4.85156C13.6453 4.85156 14.5395 5.22196 15.1988 5.88127C15.3636 6.04604 15.5103 6.22549 15.6377 6.41654L16.6079 5.35819ZM20.6413 18.6497L19.6746 19.7132C20.1676 20.4122 20.4473 21.2264 20.4473 22.0781V23.8359C20.4473 24.2243 20.7621 24.5391 21.1504 24.5391C21.5387 24.5391 21.8535 24.2243 21.8535 23.8359V22.0781C21.8535 20.7863 21.4016 19.6103 20.6413 18.6497ZM12.3111 17.5078H10.3026C7.27113 17.5078 4.97852 19.6394 4.97852 22.0781V23.8359C4.97852 24.2243 4.66372 24.5391 4.27539 24.5391C3.88707 24.5391 3.57227 24.2243 3.57227 23.8359V22.0781C3.57227 18.6922 6.67684 16.1016 10.3026 16.1016H12.4885L12.3111 17.5078Z"
+                        fill="currentColor" stroke="currentColor"></path>
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg>
+
+
+            </div>
+        </div>
+        <div class="lg:hidden md:hidden ">
+            <form class="flex items-center">
+                <label for="search">
+                </label>
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10.5" cy="10.5" r="7.5" stroke="black" stroke-width="2" style="fill:none"></circle>
+                    <path
+                        d="M17.1213 15.2929L16.4142 14.5858L15 16L15.7071 16.7071L17.1213 15.2929ZM19.2426 20.2426C19.6331 20.6332 20.2663 20.6332 20.6568 20.2426C21.0473 19.8521 21.0473 19.219 20.6568 18.8284L19.2426 20.2426ZM15.7071 16.7071L19.2426 20.2426L20.6568 18.8284L17.1213 15.2929L15.7071 16.7071Z"
+                        fill="black" style="stroke:none"></path>
+                </svg>
+                <input type="text" id="search" placeholder="Search for Plants" class="px-4 py-2">
+            </form>
+        </div>
+    </header>
+
+    <div class="flex justify-center gap-x-3 bg-[#ede9d2] py-3 items-center">
+        <svg class="w-12" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+            text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd"
+            clip-rule="evenodd" viewBox="0 0 512 86.832">
+            <defs>
+                <linearGradient id="prefix__a" gradientUnits="userSpaceOnUse" x1="45.578" y1="3.495" x2="45.579"
+                    y2="64.504">
+                    <stop offset="0" stop-color="#FFD433" />
+                    <stop offset=".471" stop-color="#FABE2B" />
+                    <stop offset="1" stop-color="#F4A722" />
+                </linearGradient>
+                <linearGradient id="prefix__b" gradientUnits="userSpaceOnUse" x1="151.001" y1="3.495" x2="151.002"
+                    y2="64.504">
+                    <stop offset="0" stop-color="#FFD433" />
+                    <stop offset=".471" stop-color="#FABE2B" />
+                    <stop offset="1" stop-color="#F4A722" />
+                </linearGradient>
+                <linearGradient id="prefix__c" gradientUnits="userSpaceOnUse" x1="256.423" y1="3.495" x2="256.425"
+                    y2="64.504">
+                    <stop offset="0" stop-color="#FFD433" />
+                    <stop offset=".471" stop-color="#FABE2B" />
+                    <stop offset="1" stop-color="#F4A722" />
+                </linearGradient>
+                <linearGradient id="prefix__d" gradientUnits="userSpaceOnUse" x1="361.846" y1="3.495" x2="361.848"
+                    y2="64.504">
+                    <stop offset="0" stop-color="#FFD433" />
+                    <stop offset=".471" stop-color="#FABE2B" />
+                    <stop offset="1" stop-color="#F4A722" />
+                </linearGradient>
+                <linearGradient id="prefix__e" gradientUnits="userSpaceOnUse" x1="467.269" y1="3.495" x2="467.27"
+                    y2="64.504">
+                    <stop offset="0" stop-color="#FFD433" />
+                    <stop offset=".471" stop-color="#FABE2B" />
+                    <stop offset="1" stop-color="#F4A722" />
+                </linearGradient>
+            </defs>
+            <path fill="#F0B100" fill-rule="nonzero"
+                d="M69.462 55.479l4.885 28.637a2.356 2.356 0 01-.246 1.484 2.322 2.322 0 01-3.14.955L45.278 72.818l-25.58 13.681a2.324 2.324 0 01-3.489-2.365l4.719-28.643L.737 34.906a2.31 2.31 0 01-.714-1.369 2.328 2.328 0 011.975-2.631l28.203-4.038L43.197 1.29a2.325 2.325 0 014.157-.011L60.236 26.87l28.078 4.036a2.324 2.324 0 011.337 3.923l-20.189 20.65z" />
+            <path fill="url(#prefix__a)"
+                d="M72.053 84.507L66.97 54.706l21.016-21.497L58.706 29 45.278 2.325 31.725 29 2.326 33.209l21.087 21.497-4.91 29.801 26.775-14.321z" />
+            <path fill="#F0B100" fill-rule="nonzero"
+                d="M174.885 55.479l4.885 28.637a2.356 2.356 0 01-.246 1.484 2.322 2.322 0 01-3.14.955l-25.683-13.737-25.58 13.681a2.324 2.324 0 01-3.489-2.365l4.719-28.643-20.192-20.585a2.328 2.328 0 011.262-4l28.203-4.038L148.62 1.29a2.325 2.325 0 014.157-.011l12.882 25.591 28.077 4.036a2.324 2.324 0 011.338 3.923l-20.189 20.65z" />
+            <path fill="url(#prefix__b)"
+                d="M177.476 84.507l-5.083-29.801 21.016-21.497L164.128 29 150.701 2.325 137.149 29l-29.4 4.209 21.087 21.497-4.911 29.801 26.776-14.321z" />
+            <path fill="#F0B100" fill-rule="nonzero"
+                d="M280.308 55.479l4.885 28.637a2.363 2.363 0 01-.246 1.484 2.322 2.322 0 01-3.14.955l-25.683-13.737-25.58 13.681a2.325 2.325 0 01-3.49-2.365l4.72-28.643-20.192-20.585a2.328 2.328 0 011.262-4l28.203-4.038L254.043 1.29a2.325 2.325 0 014.157-.011l12.881 25.591 28.078 4.036a2.324 2.324 0 011.338 3.923l-20.189 20.65z" />
+            <path fill="url(#prefix__c)"
+                d="M282.899 84.507l-5.083-29.801 21.016-21.497L269.551 29 256.124 2.325 242.571 29l-29.399 4.209 21.087 21.497-4.91 29.801 26.775-14.321z" />
+            <path fill="#F0B100" fill-rule="nonzero"
+                d="M385.731 55.479l4.885 28.637a2.363 2.363 0 01-.247 1.484 2.321 2.321 0 01-3.14.955l-25.682-13.737-25.58 13.681a2.326 2.326 0 01-3.49-2.365l4.72-28.643-20.192-20.585a2.328 2.328 0 011.262-4l28.203-4.038L359.466 1.29a2.324 2.324 0 014.156-.011l12.883 25.591 28.077 4.036a2.324 2.324 0 011.338 3.923l-20.189 20.65z" />
+            <path fill="url(#prefix__d)"
+                d="M388.322 84.507l-5.083-29.801 21.016-21.497L374.974 29 361.547 2.325 347.994 29l-29.399 4.209 21.087 21.497-4.911 29.801 26.776-14.321z" />
+            <path fill="#F0B100" fill-rule="nonzero"
+                d="M491.153 55.479l4.885 28.637a2.356 2.356 0 01-.246 1.484 2.322 2.322 0 01-3.14.955l-25.683-13.737-25.58 13.681a2.324 2.324 0 01-3.489-2.365l4.719-28.643-20.192-20.585a2.328 2.328 0 011.262-4l28.203-4.038L464.888 1.29a2.325 2.325 0 014.157-.011l12.882 25.591 28.077 4.036a2.324 2.324 0 011.338 3.923l-20.189 20.65z" />
+            <path fill="url(#prefix__e)"
+                d="M493.744 84.507l-5.083-29.801 21.016-21.497L480.396 29 466.969 2.325 453.417 29l-29.4 4.209 21.087 21.497-4.911 29.801 26.776-14.321z" />
+        </svg>
+        <span class="text-xs ">Trusted by over 5 lac Happy Customers</span>
+    </div>
+
+    <!-- image slider -->
+    <div>
+        <a href="#">
+            <img src="https://kyari.co/cdn/shop/files/Monsoon_Sale_Page_Banners_01_Desktop_e2128078-f265-4173-8ecc-b370ac2d779e.jpg?v=1751608265&width=2100"
+                alt="" class="hidden lg:block md:block">
+        </a>
+        <img src="https://kyari.co/cdn/shop/files/Monsoon_Sale_Page_Banners_01_Mobile_724f024e-6dac-427d-a90d-67da63a9558a.jpg?v=1751608264&width=1280"
+            alt="" class="lg:hidden md:hidden">
+    </div>
+
+    <!-- pot plant -->
+    <div class="w-[90%] ml-auto mr-auto grid grid-cols-3 md:grid-cols-6 lg:grid-cols-6 gap-x-8">
+        <a href="#" class="flex flex-col gap-y-5 justify-center items-center mt-12 hvr">
+            <img src="https://kyari.co/cdn/shop/files/XL.png?crop=center&height=360&v=1746510764&width=360" alt=""
+                class="size-[126px] object-contain">
+            <span class="text-[#1d4d43] font-semibold">Xl Indoor Plant</span>
+        </a>
+
+        <a href="#" class="flex flex-col gap-y-5 justify-center items-center mt-12 hvr">
+            <img src="https://kyari.co/cdn/shop/files/L.png?crop=center&height=360&v=1746510763&width=360" alt=""
+                class="size-[126px] object-contain">
+            <span class="text-[#1d4d43] font-semibold">Large Indoor Plant</span>
+        </a>
+
+        <a href="#" class=" flex flex-col gap-y-5 justify-center items-center mt-12 hvr">
+            <img src="https://kyari.co/cdn/shop/files/M.png?crop=center&height=360&v=1746510763&width=360" alt=""
+                class="size-[126px] object-contain">
+            <span class="text-[#1d4d43] font-semibold">Medium Indoor Plant</span>
+        </a>
+
+        <a href="#" class="hidden lg:flex flex-col gap-y-5 justify-center items-center mt-12 hvr">
+            <img src="https://kyari.co/cdn/shop/files/S.png?crop=center&height=360&v=1746510763&width=360" alt=""
+                class="size-[126px] object-contain">
+            <span class="text-[#1d4d43] font-semibold">Small Indoor Plant</span>
+        </a>
+
+        <a href="#" class=" hidden lg:flex flex-col gap-y-5 justify-center items-center mt-12 hvr">
+            <img src="https://kyari.co/cdn/shop/files/Plant_food_3.png?crop=center&height=360&v=1746510763&width=360"
+                alt="" class="size-[126px] object-contain">
+            <span class="text-[#1d4d43] font-semibold">Plant Food</span>
+        </a>
+
+        <a href="#" class="hidden lg:flex flex-col gap-y-5 justify-center items-center mt-12 hvr">
+            <img src="https://kyari.co/cdn/shop/files/Plant_care_5.png?crop=center&height=360&v=1746510763&width=360"
+                alt="" class="size-[126px] object-contain">
+            <span class="text-[#1d4d43] font-semibold">Plant care</span>
+        </a>
+    </div>
+
+
+    <!-- shark fav -->
+
+    <div class="flex flex-col justify-center  items-center">
+        <h2 class="text-[#1d4d43] text-4xl font-[FRAUNCES] font-bold text-center py-6 mt-3">Shark’s Favourite Picks!
+        </h2>
+
+        <div class="w-[90%] ml-auto mr-auto">
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-x-8 gap-y-4 ">
+
+                <!-- Card first -->
+                <div class="flex flex-col gap-y-2 overflow-hidden">
+                    <img src="https://kyari.co/cdn/shop/files/1_a7ed5946-5984-459c-86b3-03359b814927.jpg?crop=center&height=480&v=1749815898&width=480"
+                        alt="" class="rounded-2xl hovr ">
+                    <div class="flex items-center gap-3">
+                        <img src="image.png" alt="" class="size-4">
+                        <span class="font-bold">4.4 | 24</span>
+                    </div>
+                    <p class="hvr text-sm text-[#1c6644]">Areca Palm with Metal Self Watering Pot</p>
+                    <div>
+                        <span class="text-[#21543d] font-semibold">₹2,029</span>
+                        <del class="text-[#c3754c] font-semibold">₹3,499</del>
+                    </div>
+                    <div class="flex gap-x-2">
+                        <span class="rounded-full px-2 py-1 bg-[#E2E2F3] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Pet02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">pet safe</span>
+                        </span>
+
+                        <span class="rounded-full px-2 py-1 bg-[#E2E2F3] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Air02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">Air purifying</span>
+                        </span>
+
+                    </div>
+
+                    <div>
+                        <h4 class="text-[#1d4d43] font-semibold">Select Size</h4>
+                        <div class="flex gap-x-3">
+                            <span
+                                class="size-9 flex justify-center items-center p-1 border-2 border-black rounded-full bg-green-500 text-white">
+                                L
+                            </span>
+
+                            <span
+                                class="size-9  flex justify-center items-center p-1 border-2 border-black rounded-full">
+                                XL
+                            </span>
+
+                        </div>
+                    </div>
+                    <a href="basket.html" class="bg-[#1d4d43] text-white text-center py-2 rounded-full mt-2">Add to
+                        Basket </a>
+                </div>
+
+                <!-- card 2 -->
+                <div class="flex flex-col gap-y-2 overflow-hidden">
+                    <img src="https://kyari.co/cdn/shop/files/01_741fc925-b664-43d2-8279-3424d7396d57.webp?crop=center&height=480&v=1750327434&width=480"
+                        alt="" class="rounded-2xl hovr">
+                    <div class="flex items-center gap-3">
+                        <img src="image.png" alt="" class="size-4">
+                        <span class="font-bold">4.4 | 26</span>
+                    </div>
+                    <p class="hvr text-sm text-[#1c6644]">Calathea Triostar with Metal Self Watering Pot</p>
+                    <div>
+                        <span class="text-[#21543d] font-semibold">₹999</span>
+                        <del class="text-[#c3754c] font-semibold">₹1,599</del>
+                    </div>
+                    <div class="flex gap-x-2">
+                        <span class="rounded-full px-2 py-1 bg-[#E2E2F3] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Pet02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">pet safe</span>
+                        </span>
+
+                        <span class="rounded-full px-2 py-1 bg-[#E2E2F3] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Air02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">Air purifying</span>
+                        </span>
+
+                    </div>
+
+                    <div>
+                        <h4 class="text-[#1d4d43] font-semibold">Select Size</h4>
+                        <div class="flex gap-x-3">
+                            <span
+                                class="size-9  flex justify-center items-center p-1 border-2 border-black rounded-full">
+                                L
+                            </span>
+
+                            <span
+                                class="size-9  flex justify-center items-center p-1 border-2 border-black rounded-full">
+                                XL
+                            </span>
+
+                            <span
+                                class="size-9 flex justify-center items-center p-1 border-2 border-black rounded-full bg-green-500 text-white">
+                                M
+                            </span>
+
+
+
+                        </div>
+                    </div>
+                    <a href="basket.html" class="bg-[#1d4d43] text-white text-center py-2 rounded-full mt-2">Add to
+                        Basket </a>
+                </div>
+
+                <!-- card 3 -->
+                <div class="flex flex-col gap-y-2 overflow-hidden">
+                    <img src="https://kyari.co/cdn/shop/files/1_a96b6d1b-62d6-4202-8a0e-0e469c582a47.jpg?crop=center&height=480&v=1736856962&width=480"
+                        alt="" class="rounded-2xl hovr">
+                    <div class="flex items-center gap-3">
+                        <img src="image.png" alt="" class="size-4">
+                        <span class="font-bold">4.4 | 29</span>
+                    </div>
+                    <p class="hvr text-sm text-[#1c6644]">Fiddle Fig - With Large Metal Self Watering Pot</p>
+                    <div>
+                        <span class="text-[#21543d] font-semibold">₹1,705</span>
+                        <del class="text-[#c3754c] font-semibold">₹3,299</del>
+                    </div>
+                    <div class="flex gap-x-2">
+                        <span class="rounded-full px-2 py-1 bg-[#E2E2F3] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Pet02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">pet safe</span>
+                        </span>
+
+                        <span class="rounded-full px-2 py-1 bg-[#E2E2F3] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Air02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">Air purifying</span>
+                        </span>
+
+                    </div>
+
+                    <div>
+                        <h4 class="text-[#1d4d43] font-semibold">Select color</h4>
+                        <div class="flex gap-x-3">
+                            <span
+                                class="size-9  flex justify-center items-center p-1 border-2 border-black rounded-full bg-gray-600">
+
+                            </span>
+
+                            <span
+                                class="size-9  flex justify-center items-center p-1 bg-yellow-400 rounded-full"></span>
+                            <span class="size-9  flex justify-center items-center p-1 bg-blue-400 rounded-full"></span>
+                            <span class="size-9  flex justify-center items-center p-1 bg-green-400 rounded-full"></span>
+
+                            <span class="size-9 flex justify-center items-center p-1  rounded-full bg-black">
+
+                            </span>
+
+
+
+                        </div>
+                    </div>
+                    <a href="basket.html" class="bg-[#1d4d43] text-white text-center py-2 rounded-full mt-2">Add to
+                        Basket </a>
+                </div>
+
+                <!-- card 4 -->
+                <div class="flex flex-col gap-y-2 overflow-hidden">
+                    <img src="https://kyari.co/cdn/shop/files/1_49998c00-7542-4735-94ac-7fe58cf9301e.jpg?crop=center&height=480&v=1750317260&width=480"
+                        alt="" class="rounded-2xl hovr">
+
+
+                    <div class="flex items-center gap-3">
+                        <img src="image.png" alt="" class="size-4">
+                        <span class="font-bold">4.4 | 28</span>
+                    </div>
+                    <p class="hvr text-sm text-[#1c6644]">Thuja plant with metal self watering pot</p>
+                    <div>
+                        <span class="text-[#21543d] font-semibold">₹1725</span>
+                        <del class="text-[#c3754c] font-semibold">₹3,299</del>
+                    </div>
+                    <div class="flex gap-x-2">
+                        <span class="rounded-full px-2 py-1 bg-[#E2E2F3] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Pet02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">pet safe</span>
+                        </span>
+
+                        <span class="rounded-full px-2 py-1 bg-[#E2E2F3] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Air02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">Air purifying</span>
+                        </span>
+
+                    </div>
+
+                    <div>
+                        <h4 class="text-[#1d4d43] font-semibold">Select Size</h4>
+                        <div class="flex gap-x-3">
+                            <span
+                                class="size-9  flex justify-center items-center p-1 border-2 border-black rounded-full">
+                                L
+                            </span>
+
+                            <span
+                                class="size-9  flex justify-center items-center p-1 border-2 border-black rounded-full">
+                                XL
+                            </span>
+
+                            <span
+                                class="size-9 flex justify-center items-center p-1 border-2 border-black rounded-full bg-green-500 text-white">
+                                M
+                            </span>
+
+
+
+                        </div>
+                    </div>
+                    <a href="basket.html" class="bg-[#1d4d43] text-white text-center py-2 rounded-full mt-2">Add to
+                        Basket </a>
+                </div>
+
+            </div>
+        </div>
+
+        <a href="product.html" class="px-14 py-3 rounded-full text-[#f5f3e7] bg-[#c3754c] mt-8">
+            View all product
+        </a>
+    </div>
+
+    <!-- silder img 2 -->
+    <div class="mt-10 mb-10">
+        <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/App_Desktop.png?v=1751547607" alt=""
+            class="hidden lg:block md:block">
+        <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/App_Mobile.png?v=1751547606" alt=""
+            class="lg:hidden md:block">
+    </div>
+
+    <!-- self watering -->
+    <div
+        class="bg-[url(https://cdn.shopify.com/s/files/1/0646/8327/8550/files/istockphoto-1298585936-2048x2048.jpg?v=1736588250)] bg-no-repeat bg-center bg-cover">
+        <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-x-8 lg:px-10 px-5">
+            <!-- left section -->
+            <div class="flex  items-center lg:px-10 lg:py-15 px-3 py-6">
+                <img src="https://kyari.co/cdn/shop/files/self_watering_3D.png?v=1736587230" alt=""
+                    class=" h-[480px] rounded-2xl">
+            </div>
+
+            <!-- right secction -->
+            <div class="flex flex-col justify-center gap-y-3 text-center lg:text-start md:text-start">
+                <h2 class="text-[#f5f3e7] text-3xl font-semibold">About Self-Watering Planters</h2>
+                <p class="text-[#f5f3e7]">Self-watering planters provide consistent moisture, prevent overwatering, and
+                    simplify care for healthy plant growth.</p>
+                <h2 class="text-2xl font-semibold text-[#f5f3e7]">How it works</h2>
+                <div class="grid grid-cols-3 gap-x-4 ">
+                    <div class="text-center flex flex-col gap-y-3">
+                        <img src="https://kyari.co/cdn/shop/files/Group_1000010022_30a199ec-d8d7-4ed6-82d3-c55d336ad499.png?v=1736587574"
+                            alt="">
+                        <span class="text-[#f5f3e7] font-semibold">Fill the Water <br> Reservoir</span>
+                    </div>
+                    <div class="text-center flex flex-col gap-y-3">
+                        <img src="https://kyari.co/cdn/shop/files/Group_1000010023.png?v=1736587574" alt="">
+                        <span class="text-[#f5f3e7] font-semibold">Water reaches the soil as needed</span>
+                    </div>
+                    <div class="text-center flex flex-col gap-y-3 font-semibold">
+                        <img src="https://kyari.co/cdn/shop/files/Group_1000010024.png?v=1736587574" alt="">
+                        <span class="text-[#f5f3e7]">Healthy and Happy <br> Plant</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Explore  -->
+    <div class="flex flex-col justify-center  items-center">    
+        <h2 class="text-[40px] text-[#1d4d43] font-semibold text-center mt-12">Explore Our Plants</h2>
+
+        <div class="w-[90%] ml-auto mr-auto mt-10">
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-x-8 gap-y-4 ">
+
+                <!-- Card first -->
+                <div class="flex flex-col gap-y-2 overflow-hidden">
+                    <img src="https://kyari.co/cdn/shop/files/1_558289bb-b9ef-423c-a061-4a1042511bce.jpg?crop=center&height=480&v=1743058124&width=480"
+                        alt="" class="rounded-2xl hovr">
+                    <div class="flex items-center gap-3">
+                        <img src="image.png" alt="" class="size-4">
+                        <span class="font-bold">4.5 | 230</span>
+                    </div>
+                    <p class="hvr text-sm text-[#1c6644]">Lucky Jade Plant With Self Watering Pot</p>
+                    <div>
+                        <span class="text-[#21543d] font-semibold">₹299</span>
+                        <del class="text-[#c3754c] font-semibold">₹496</del>
+                    </div>
+                    <div class="flex gap-x-2">
+                        <span class="rounded-full px-2 py-1 bg-[#E2E2F3] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Pet02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">pet safe</span>
+                        </span>
+
+                        <span class="rounded-full px-2 py-1 bg-[#E2E2F3] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Air02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">Air purifying</span>
+                        </span>
+
+                    </div>
+
+                    <div>
+                        <h4 class="text-[#1d4d43] font-semibold">Select Size</h4>
+                        <div class="flex gap-x-3">
+                            <span
+                                class="size-9 flex justify-center items-center p-1 border-2 border-black rounded-full bg-green-500 text-white">
+                                S
+                            </span>
+
+                            <span
+                                class="size-9  flex justify-center items-center p-1 border-2 border-black rounded-full">
+                                M
+                            </span>
+
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Select Color</h4>
+                    </div>
+                    <a href="basket.html" class="bg-[#1d4d43] text-white text-center py-2 rounded-full mt-2">Add to
+                        Basket </a>
+                </div>
+
+                <!-- card 2 -->
+                <div class="flex flex-col gap-y-2 overflow-hidden">
+                    <img src="https://kyari.co/cdn/shop/files/w.1.jpg?crop=center&height=480&v=1748350053&width=480"
+                        alt="" class="rounded-2xl hovr">
+                    <div class="flex items-center gap-3">
+                        <img src="image.png" alt="" class="size-4">
+                        <span class="font-bold">5.0 | 1</span>
+                    </div>
+                    <p class="hvr text-sm text-[#1c6644]">Song Of India Plant With Self Watering Pot</p>
+                    <div>
+                        <span class="text-[#21543d] font-semibold">₹289</span>
+                        <del class="text-[#c3754c] font-semibold">₹1,599</del>
+                    </div>
+                    <div class="flex gap-x-2">
+                        <span class="rounded-full px-2 py-1 bg-[#E2E2F3] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Pet02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">pet safe</span>
+                        </span>
+
+                        <span class="rounded-full px-2 py-1 bg-[#E2E2F3] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Air02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">Air purifying</span>
+                        </span>
+
+                    </div>
+
+                    <div>
+                        <h4 class="text-[#1d4d43] font-semibold">Select Size</h4>
+                        <div class="flex gap-x-3">
+                            <span
+                                class="size-9  flex justify-center items-center p-1 border-2 border-black rounded-full">
+                                L
+                            </span>
+
+                            <span
+                                class="size-9  flex justify-center items-center p-1 border-2 border-black rounded-full">
+                                XL
+                            </span>
+
+                            <span
+                                class="size-9 flex justify-center items-center p-1 border-2 border-black rounded-full bg-green-500 text-white">
+                                M
+                            </span>
+
+
+
+                        </div>
+                    </div>
+                    <a href="basket.html" class="bg-[#1d4d43] text-white text-center py-2 rounded-full mt-2">Add to
+                        Basket </a>
+                </div>
+
+                <!-- card 3 -->
+                <div class="flex flex-col gap-y-2 overflow-hidden">
+                    <img src="https://kyari.co/cdn/shop/files/1_34d123c4-6217-4cd5-a90c-a096d780846f.jpg?crop=center&height=480&v=1741076135&width=480"
+                        alt="" class="rounded-2xl hovr">
+                    <div class="flex items-center gap-3">
+                        <img src="image.png" alt="" class="size-4">
+                        <span class="font-bold">4.4 | 29</span>
+                    </div>
+                    <p class="hvr text-sm text-[#1c6644]">Fiddle Fig - With Large Metal Self Watering Pot</p>
+                    <div>
+                        <span class="text-[#21543d] font-semibold">₹319</span>
+                        <del class="text-[#c3754c] font-semibold">₹539</del>
+                    </div>
+                    <div class="flex gap-x-2">
+                        <span class="rounded-full px-2 py-1 bg-[#E2E2F3] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Pet02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">pet safe</span>
+                        </span>
+
+                        <span class="rounded-full px-2 py-1 bg-[#E2E2F3] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Air02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">Air purifying</span>
+                        </span>
+
+                    </div>
+
+                    <div>
+                        <h4 class="text-[#1d4d43] font-semibold">Select color</h4>
+                        <div class="flex gap-x-3">
+                            <span
+                                class="size-9  flex justify-center items-center p-1 border-2 border-black rounded-full bg-gray-600">
+
+                            </span>
+
+                            <span
+                                class="size-9  flex justify-center items-center p-1 bg-yellow-400 rounded-full"></span>
+                            <span class="size-9  flex justify-center items-center p-1 bg-blue-400 rounded-full"></span>
+                            <span class="size-9  flex justify-center items-center p-1 bg-green-400 rounded-full"></span>
+
+                            <span class="size-9 flex justify-center items-center p-1  rounded-full bg-black">
+
+                            </span>
+
+
+
+                        </div>
+                    </div>
+                    <a href="basket.html" class="bg-[#1d4d43] text-white text-center py-2 rounded-full mt-2">Add to
+                        Basket </a>
+                </div>
+
+                <!-- card 4 -->
+                <div class="flex flex-col gap-y-2 overflow-hidden">
+                    <img src="https://kyari.co/cdn/shop/files/1_c2592c28-67c7-4eeb-ae96-8d693911e234.jpg?crop=center&height=480&v=1737183229&width=480"
+                        alt="" class="rounded-2xl hovr">
+
+
+                    <div class="flex items-center gap-3">
+                        <img src="image.png" alt="" class="size-4">
+                        <span class="font-bold">4.9 | 182</span>
+                    </div>
+                    <p class="hvr text-sm text-[#1c6644]">Zamia Green - ZZ Plant With Self Watering Pot</p>
+                    <div>
+                        <span class="text-[#21543d] font-semibold">₹1725</span>
+                        <del class="text-[#c3754c] font-semibold">₹3,299</del>
+                    </div>
+                    <div class="flex gap-x-2">
+                        <span class="rounded-full px-2 py-1 bg-[#E2E2F3] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Pet02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">pet safe</span>
+                        </span>
+
+                        <span class="rounded-full px-2 py-1 bg-[#E2E2F3] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Air02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">Air purifying</span>
+                        </span>
+
+                    </div>
+
+                    <div>
+                        <h4 class="text-[#1d4d43] font-semibold">Select Size</h4>
+                        <div class="flex gap-x-3">
+                            <span
+                                class="size-9  flex justify-center items-center p-1 border-2 border-black rounded-full">
+                                L
+                            </span>
+
+                            <span
+                                class="size-9  flex justify-center items-center p-1 border-2 border-black rounded-full">
+                                XL
+                            </span>
+
+                            <span
+                                class="size-9 flex justify-center items-center p-1 border-2 border-black rounded-full bg-green-500 text-white">
+                                M
+                            </span>
+
+
+
+                        </div>
+                    </div>
+                    <a href="basket.html" class="bg-[#1d4d43] text-white text-center py-2 rounded-full mt-2">Add to
+                        Basket </a>
+                </div>
+
+            </div>
+        </div>
+
+        <a href="product.html" class="px-14 py-3 rounded-full text-[#f5f3e7] bg-[#c3754c] mt-8">
+            View all product
+        </a>
+
+    </div>
+
+
+    <!-- shark tank seen -->
+    <div class="bg-[#F5F3E7] mt-10 py-10">
+        <div class="flex flex-col justify-center items-center gap-y-3">
+            <h3 class="mt-10 text-[#A04F2C]">As Seen on</h3>
+            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Group_1000010031.png?v=1737023192" alt=""
+                class="w-[20%]">
+        </div>
+
+        <div class="grid lg:grid-cols-2 md:grid-cols-2 w-[90%] ml-auto mr-auto mt-10 gap-x-12 gap-y-8">
+            <!-- left box -->
+            <a href="" class="flex justify-center items-center gap-x-8">
+                <div>
+                    <img src="https://kyari.co/cdn/shop/files/Rectangle_25654_f9fbfb23-6e4f-458e-bf90-028f3f722083.png?v=1736593875"
+                        alt="" class="w-[230px] h-[286px]">
+                </div>
+                <div class="flex flex-col gap-y-2">
+                    <h2 class="text-[#1d4d43] text-xl lg:text-[22px] md:lg:text-[22px] font-semibold ">HYDRATE - Water
+                        <br> Meter
+                    </h2>
+                    <p class="text-[#1d4d43] text-[11px] lg:text-[14px] md:text-[14px] ">Track soil moisture with a
+                        color <br> shift. White means
+                        water, blue <br> means hydrated.</p>
+                    <p class="px-5 py-2 bg-[#e5e2ce] text-[#1d4d43] rounded-full text-xs lg:text-sm md:text-sm">Prevents
+                        Over/Under watering</p>
+                    <p class="px-5 py-2 bg-[#e5e2ce] text-[#1d4d43] rounded-full text-xs lg:text-sm md:text-sm">
+                        Stress-Free Plant Care</p>
+                    <span class="flex gap-x-4">
+                        <span class="text-[#1d4d43]">₹95</span>
+                        <del class="text-[#C3754C] text-[14px]">₹99</del>
+                    </span>
+                    <span
+                        class="px-5 py-2.5 text-xs lg:text-sm md:text-sm text-white bg-[#1d4d43] flex justify-center items-center rounded-full">View
+                        Product</span>
+                </div>
+            </a>
+
+            <a href="" class="flex justify-center items-center gap-x-8">
+                <div class="hidden lg:block md:block ">
+                    <img src="https://kyari.co/cdn/shop/files/Rectangle_25654_1_09f6c77f-da0d-4093-83ab-451fb64823d3.png?v=1736594003"
+                        alt="" class="w-[230px] h-[286px]">
+                </div>
+                <div class="flex flex-col gap-y-2">
+                    <h2 class="text-[#1d4d43] text-xl lg:text-[22px] md:lg:text-[22px] font-semibold ">Plant Watering
+                        Globe</h2>
+                    <p class="text-[#1d4d43] text-[11px] lg:text-[14px] md:text-[14px]  ">A self-watering solution that
+                        keeps <br> plants healthy,
+                        hydrated, and <br> hassle-free.</p>
+                    <p class="px-5 py-2 bg-[#e5e2ce] text-[#1d4d43] rounded-full text-xs lg:text-sm md:text-sm">
+                        Self-Watering Simplified</p>
+                    <p class="px-5 py-2 bg-[#e5e2ce] text-[#1d4d43] rounded-full text-xs lg:text-sm md:text-sm">Smart
+                        Design for Busy Lives</p>
+                    <span class="flex gap-x-4">
+                        <span class="text-[#1d4d43]">₹95</span>
+                        <del class="text-[#C3754C] text-[14px]">₹99</del>
+                    </span>
+                    <span
+                        class="px-5 py-2.5 text-xs lg:text-sm md:text-sm text-white bg-[#1d4d43] flex justify-center items-center rounded-full">View
+                        Product</span>
+                </div>
+                <div class="lg:hidden md:hidden">
+                    <img src="https://kyari.co/cdn/shop/files/Rectangle_25654_1_09f6c77f-da0d-4093-83ab-451fb64823d3.png?v=1736594003"
+                        alt="" class="w-[230px] h-[286px]">
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- image slider 3 -->
+    <div class="mt-10 mb-15">
+        <img src="https://kyari.co/cdn/shop/files/Group_1000010087.jpg?v=1740134295" alt=""
+            class="hidden lg:block md:block">
+        <img src="https://kyari.co/cdn/shop/files/Group_1000010086.png?v=1740134326" alt="" class="lg:hidden md:hidden">
+    </div>
+
+    <!-- modern Decor -->
+    <div class="px-5 lg:flex items-center gap-x-8 mb-10">
+        <div>
+            <img src="https://kyari.co/cdn/shop/files/Catalogue_Shoot_28th_Dec_20240389_1_5446beb6-cf51-454d-be23-fce948f4d453.png?v=1738322025"
+                alt="">
+        </div>
+        <div class="flex flex-col p-5 gap-y-6">
+            <img src="https://kyari.co/cdn/shop/files/Group_1000010021.png?v=1736596168" alt="" class="w-[25rem]">
+            <p class="text-[#1d4d43] text-sm font-medium">More than functional companions, plants are living decor,
+                blending beauty and purpose to create a fresh, inviting home.</p>
+            <div class="grid grid-cols-3">
+                <span class="flex flex-col pr-4 gap-y-2">
+                    <span class="text-[#A04F2C] text-sm font-bold">Living Decor</span>
+                    <span class="text-[#1d4d43 ] text-xs ">Plants create a vibrant, stylish haven.</span>
+                </span>
+                <span class="flex flex-col bdr px-4 gap-y-2">
+                    <span class="text-[#A04F2C] text-sm font-bold">Energy Boost</span>
+                    <span class="text-[#1d4d43 ] text-xs ">Greenery boosts mood and energy.</span>
+                </span>
+                <span class="flex flex-col px-6 gap-y-2">
+                    <span class="text-[#A04F2C] text-sm font-bold">Timeless Elegance</span>
+                    <span class="text-[#1d4d43 ] text-xs ">Fits any room, adding charm.</span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <hr>
+    
+    <!-- Balanced Beauty -->
+
+    <div class="flex flex-col justify-center  items-center">
+        <h2 class="text-[#1d4d43] text-4xl font-[FRAUNCES] font-bold text-center py-6 mt-3">Bring Home Balanced Beauty
+        </h2>
+
+        <div class="w-[90%] ml-auto mr-auto">
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-x-8 gap-y-4 ">
+
+                <!-- Card first -->
+                <div class="flex flex-col gap-y-2">
+                    <img src="https://kyari.co/cdn/shop/files/01_3dd856b5-3a57-4a77-93ee-4eee26deabfc.jpg?crop=center&height=640&v=1743063862&width=640"
+                        alt="" class="rounded-2xl">
+                    <div class="flex items-center gap-3">
+                        <img src="image.png" alt="" class="size-4">
+                        <span class="font-bold">4.4 | 54</span>
+                    </div>
+                    <p class="hvr text-sm text-[#1c6644] font-semibold">Lucky Jade Plant with Medium Metal Self Watering
+                        Pot</p>
+                    <div>
+                        <span class="text-[#21543d] font-semibold">₹639</span>
+                        <del class="text-[#c3754c] font-semibold">₹999</del>
+                    </div>
+                    <div class="flex gap-x-2">
+                        <span class="rounded-full px-2 py-1 bg-[#EDE9D2] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Vastu02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">Vastu Approved</span>
+                        </span>
+
+                        <span class="rounded-full px-2 py-1 bg-[#F0D2D2] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Gift02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">Perfect Gift</span>
+                        </span>
+
+                    </div>
+
+                    <div>
+                        <h4 class="text-[#1d4d43] font-semibold">Select color</h4>
+                        <div class="flex gap-x-3">
+                            <span
+                                class="size-9  flex justify-center items-center p-1 border-2 border-black rounded-full bg-gray-600">
+
+                            </span>
+
+                            <span
+                                class="size-9  flex justify-center items-center p-1 bg-yellow-400 rounded-full"></span>
+                            <span class="size-9  flex justify-center items-center p-1 bg-blue-400 rounded-full"></span>
+                            <span class="size-9  flex justify-center items-center p-1 bg-green-400 rounded-full"></span>
+
+                            <span class="size-9 flex justify-center items-center p-1  rounded-full bg-black">
+
+                            </span>
+
+
+
+                        </div>
+                    </div>
+                    <a href="basket.html" class="bg-[#1d4d43] text-white text-center py-2 rounded-full mt-2">Add to
+                        Basket </a>
+                </div>
+
+                <!-- card 2 -->
+                <div class="flex flex-col gap-y-2">
+                    <img src="https://kyari.co/cdn/shop/files/01_065f92f4-88c9-4073-9d3a-5a36e62f0445.jpg?crop=center&height=480&v=1734684367&width=480"
+                        alt="" class="rounded-2xl">
+                    <div class="flex items-center gap-3">
+                        <img src="image.png" alt="" class="size-4">
+                        <span class="font-bold">4.4 | 26</span>
+                    </div>
+                    <p class="hvr text-sm text-[#1c6644] font-semibold">Golden Hahnii Snake Plant with Medium Metal Self
+                        Watering Pot</p>
+                    <div>
+                        <span class="text-[#21543d] font-semibold">₹869</span>
+                        <del class="text-[#c3754c] font-semibold">₹1,149</del>
+                    </div>
+                    <div class="flex gap-x-2">
+
+
+                        <span class="rounded-full px-2 py-1 bg-[#E2E2F3] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Air02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">Air purifying</span>
+                        </span>
+
+                        <span class="rounded-full px-2 py-1 bg-[#EDE9D2] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Vastu02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">Vastu Approved</span>
+                        </span>
+
+                    </div>
+
+                    <div>
+                        <h4 class="text-[#1d4d43] font-semibold">Select color</h4>
+                        <div class="flex gap-x-3">
+                            <span
+                                class="size-9  flex justify-center items-center p-1 border-2 border-black bg-yellow-400 rounded-full"></span>
+
+                            <span class="size-9  flex justify-center items-center p-1  rounded-full bg-gray-600">
+
+                            </span>
+
+                            <span class="size-9  flex justify-center items-center p-1 bg-blue-400 rounded-full"></span>
+                            <span class="size-9  flex justify-center items-center p-1 bg-green-400 rounded-full"></span>
+
+                            <span class="size-9 flex justify-center items-center p-1  rounded-full bg-black">
+
+                            </span>
+
+
+
+                        </div>
+                    </div>
+                    <a href="basket.html" class="bg-[#1d4d43] text-white text-center py-2 rounded-full mt-2">Add to
+                        Basket </a>
+                </div>
+
+                <!-- card 3 -->
+                <div class="flex flex-col gap-y-2">
+                    <img src="https://kyari.co/cdn/shop/files/01_a4caca05-025b-4563-83b7-70290548e6af.jpg?crop=center&height=480&v=1734684763&width=480"
+                        alt="" class="rounded-2xl">
+                    <div class="flex items-center gap-3">
+                        <img src="image.png" alt="" class="size-4">
+                        <span class="font-bold">4.8 | 28</span>
+                    </div>
+                    <p class="hvr text-sm text-[#1c6644] font-semibold">Lucky Bonsai Plant with Medium Metal Self
+                        Watering Pot</p>
+                    <div>
+                        <span class="text-[#21543d] font-semibold">₹1,799</span>
+                        <del class="text-[#c3754c] font-semibold">₹2,999</del>
+                    </div>
+                    <div class="flex gap-x-2">
+
+
+                        <span class="rounded-full px-2 py-1 bg-[#E2E2F3] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Air02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">Air purifying</span>
+                        </span>
+
+                        <span class="rounded-full px-2 py-1 bg-[#E2E2F3] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Gift02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">Perfect Gift</span>
+                        </span>
+                    </div>
+
+                    <div>
+                        <h4 class="text-[#1d4d43] font-semibold">Select color</h4>
+                        <div class="flex gap-x-3">
+                            <span
+                                class="size-9  flex justify-center items-center p-1 border-2 border-black bg-yellow-400 rounded-full"></span>
+
+                            <span class="size-9  flex justify-center items-center p-1  rounded-full bg-gray-600">
+
+                            </span>
+
+                            <span class="size-9  flex justify-center items-center p-1 bg-blue-400 rounded-full"></span>
+                            <span class="size-9  flex justify-center items-center p-1 bg-green-400 rounded-full"></span>
+
+                            <span class="size-9 flex justify-center items-center p-1  rounded-full bg-black">
+
+                            </span>
+
+
+
+                        </div>
+                    </div>
+                    <a href="basket.html" class="bg-[#1d4d43] text-white text-center py-2 rounded-full mt-2">Add to
+                        Basket </a>
+                </div>
+
+                <!-- card 4 -->
+                <div class="flex flex-col gap-y-2">
+                    <img src="https://kyari.co/cdn/shop/files/01_2b181389-95b9-463d-904e-ba27084df364.jpg?crop=center&height=480&v=1743069039&width=480"
+                        alt="" class="rounded-2xl">
+
+
+                    <div class="flex items-center gap-3">
+                        <img src="image.png" alt="" class="size-4">
+                        <span class="font-bold">4.6 | 18</span>
+                    </div>
+                    <p class="hvr text-sm text-[#1c6644]">Golden Money Plant with Medium Metal Self Watering Pot</p>
+                    <div>
+                        <span class="text-[#21543d] font-semibold">₹789</span>
+                        <del class="text-[#c3754c] font-semibold">₹1,299</del>
+                    </div>
+                    <div class="flex gap-x-2">
+                        <span class="rounded-full px-2 py-1 bg-[#EDE9D2] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Vastu02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">Vastu Approved</span>
+                        </span>
+
+                        <span class="rounded-full px-2 py-1 bg-[#F0D2D2] flex items-center gap-x-2">
+                            <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Gift02.gif?v=1736169632"
+                                alt="" class="w-5">
+                            <span class="text-xs">Perfect Gift</span>
+                        </span>
+
+                    </div>
+
+                    <div>
+                        <h4 class="text-[#1d4d43] font-semibold">Select color</h4>
+                        <div class="flex gap-x-3">
+                            <span
+                                class="size-9  flex justify-center items-center p-1 border-2 border-black rounded-full bg-gray-600">
+
+                            </span>
+
+                            <span
+                                class="size-9  flex justify-center items-center p-1 bg-yellow-400 rounded-full"></span>
+                            <span class="size-9  flex justify-center items-center p-1 bg-blue-400 rounded-full"></span>
+                            <span class="size-9  flex justify-center items-center p-1 bg-green-400 rounded-full"></span>
+
+                            <span class="size-9 flex justify-center items-center p-1  rounded-full bg-black">
+
+                            </span>
+
+
+
+                        </div>
+                    </div>
+                    <a href="basket.html" class="bg-[#1d4d43] text-white text-center py-2 rounded-full mt-2">Add to
+                        Basket </a>
+                </div>
+
+            </div>
+        </div>
+
+        <a href="product.html" class="px-14 py-3 rounded-full text-[#f5f3e7] bg-[#c3754c] mt-8">
+            View all product
+        </a>
+    </div>
+</body>
+
+</html>

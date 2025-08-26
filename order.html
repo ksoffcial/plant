@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order | kyari</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- top line -->
+    <div class="bg-[#E7AB26] py-2 flex gap-x-3 justify-center">
+        <a href="index.html" class="text-white">
+            Free shipping on all orders above ₹399
+        </a>
+        <a href="index.html" class="underline">shop now</a>
+    </div>
+
+    <!-- Navbar -->
+    <header class="sticky top-0 z-50 bg-white">
+        <div class="flex items-center justify-between  px-[4%] py-7">
+            <div class="flex items-center gap-x-3">
+                <img src="https://kyari.co/cdn/shop/files/Group_1000009597.png?v=1729591918" alt="" class="w-28">
+                <a href="shop.html"
+                    class="hidden lg:flex items-center gap-x-2 text-[#424242] text-xl font-semibold uppercase">
+                    <span class="size-3 rounded-full bg-[#E7AB26]"></span>
+                    <span class="text-[1.1rem]">shop</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-5 rotate-90">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="hidden lg:block md:block">
+                <div class="flex lg:gap-x-10 md:gap-x-5">
+                    <a href="seller.html"
+                        class="text-[#424242] md:texts-[0.95rem] lg:text-[1.1rem] font-bold uppercase">Bestseller</a>
+                    <a href="order.html"
+                        class="text-[#424242] md:texts-[0.95rem] lg:text-[1.1rem] font-bold uppercase">corporate/bulk
+                        gifting</a>
+                    <a href="deal.html" class="text-[#424242] md:texts-[0.95rem] lg:text-[1.1rem] font-bold uppercase">deal if
+                        the day</a>
+                    <a href="" class="text-[#424242] md:texts-[0.95rem] lg:text-[1.1rem] font-bold uppercase">track your
+                        order</a>
+                </div>
+
+            </div>
+
+            <div class="flex items-center gap-x-3">
+                <svg class="hidden lg:block md:block" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10.5" cy="10.5" r="7.5" stroke="black" stroke-width="2" style="fill:none"></circle>
+                    <path
+                        d="M17.1213 15.2929L16.4142 14.5858L15 16L15.7071 16.7071L17.1213 15.2929ZM19.2426 20.2426C19.6331 20.6332 20.2663 20.6332 20.6568 20.2426C21.0473 19.8521 21.0473 19.219 20.6568 18.8284L19.2426 20.2426ZM15.7071 16.7071L19.2426 20.2426L20.6568 18.8284L17.1213 15.2929L15.7071 16.7071Z"
+                        fill="black" style="stroke:none"></path>
+                </svg>
+
+                <svg width="26" height="26" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    id="svgkp">
+                    <path
+                        d="M22.9129 12.935L13.7571 23.0474C13.5348 23.2929 13.1284 23.1084 13.1669 22.7794L14.0816 14.9731H10.6991C10.4034 14.9731 10.2484 14.6219 10.4478 14.4035L20.3133 3.59739C20.5589 3.32834 20.9984 3.58134 20.8891 3.92887L18.2354 12.3664H22.6607C22.9557 12.3664 23.1109 12.7163 22.9129 12.935Z"
+                        fill="#FEA203"></path>
+                    <path id="svgkp-path" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M16.6079 5.35819C16.4805 5.1933 16.3421 5.03582 16.1932 4.8869C15.2702 3.96387 14.0183 3.44531 12.7129 3.44531C11.4075 3.44531 10.1556 3.96387 9.2326 4.8869C8.30957 5.80993 7.79102 7.06183 7.79102 8.36719C7.79102 9.67255 8.30957 10.9244 9.2326 11.8475C9.48368 12.0986 9.75909 12.3197 10.0533 12.5086L11.0235 11.4503C10.7335 11.2914 10.4649 11.0911 10.227 10.8531C9.56766 10.1938 9.19727 9.29959 9.19727 8.36719C9.19727 7.43479 9.56766 6.54057 10.227 5.88127C10.8863 5.22196 11.7805 4.85156 12.7129 4.85156C13.6453 4.85156 14.5395 5.22196 15.1988 5.88127C15.3636 6.04604 15.5103 6.22549 15.6377 6.41654L16.6079 5.35819ZM20.6413 18.6497L19.6746 19.7132C20.1676 20.4122 20.4473 21.2264 20.4473 22.0781V23.8359C20.4473 24.2243 20.7621 24.5391 21.1504 24.5391C21.5387 24.5391 21.8535 24.2243 21.8535 23.8359V22.0781C21.8535 20.7863 21.4016 19.6103 20.6413 18.6497ZM12.3111 17.5078H10.3026C7.27113 17.5078 4.97852 19.6394 4.97852 22.0781V23.8359C4.97852 24.2243 4.66372 24.5391 4.27539 24.5391C3.88707 24.5391 3.57227 24.2243 3.57227 23.8359V22.0781C3.57227 18.6922 6.67684 16.1016 10.3026 16.1016H12.4885L12.3111 17.5078Z"
+                        fill="currentColor" stroke="currentColor"></path>
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg>
+
+
+            </div>
+        </div>
+        <div class="lg:hidden md:hidden ">
+            <form class="flex items-center">
+                <label for="search">
+                </label>
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10.5" cy="10.5" r="7.5" stroke="black" stroke-width="2" style="fill:none"></circle>
+                    <path
+                        d="M17.1213 15.2929L16.4142 14.5858L15 16L15.7071 16.7071L17.1213 15.2929ZM19.2426 20.2426C19.6331 20.6332 20.2663 20.6332 20.6568 20.2426C21.0473 19.8521 21.0473 19.219 20.6568 18.8284L19.2426 20.2426ZM15.7071 16.7071L19.2426 20.2426L20.6568 18.8284L17.1213 15.2929L15.7071 16.7071Z"
+                        fill="black" style="stroke:none"></path>
+                </svg>
+                <input type="text" id="search" placeholder="Search for Plants" class="px-4 py-2">
+            </form>
+        </div>
+    </header>
+
+
+    <!-- img form -->
+    <div
+        class="bg-[url(https://cdn.shopify.com/s/files/1/0646/8327/8550/files/New_Banner_Desktop_8fb9e01e-dc25-4133-80c2-8c75041f37bf.jpg?v=1736331022)] bg-no-repeat bg-cover bg-right">
+        <div class=" w-[90%] ml-auto mr-auto flex  justify-between flex-col lg:flex-row md:flex-row pt-12 py-6 gap-y-10">
+            <!--    left box -->
+            <div>
+                <h2 class="text-[#1d4d43] text-[40px] font-semibold leading-10">Green gifts for <br> <span>Everlasting
+                        Bonds</span></h2>
+                <p class="text-[#1d4d43] text-[15px] mt-3.5 font-semibold">Fill out the form and our representative will
+                    get back to you as <br> soon as possible</p>
+            </div>
+
+            <!-- right box -->
+            <div class="bg-white p-8 rounded-xl flex flex-col gap-y-4 lg:w-[45%] ">
+                <h2 class="text-[#1d4d43] text-[22px] font-semibold">Let's Curate Your Perfect Corporate Gift</h2>
+                <p class="text-[#1d4d43] text-[15px] font-medium">Fill out the form below, and our team will get in
+                    touch with <br> you</p>
+                <p class="text-[#1d4d43] text-[15px] font-medium">Call us on : +91 9201962751</p>
+
+                <form class="flex flex-col gap-y-2">
+                    <input type="text" placeholder="Full Name" class="px-2.5 py-3  btm">
+                    <input type="text" placeholder="Whatsapp Number" class="px-2.5 py-3  btm">
+                    <input type="text" placeholder="Email Address" class="px-2.5 py-3  btm">
+                    <input type="text" placeholder="Company Name" class="px-2.5 py-3  btm">
+                    <input type="text" placeholder="Customisation request if any" class="px-2.5 py-3  btm">
+                    <button
+                        class="bg-[#812b11] rounded-full font-semibold text-white text-sm px-[45px] py-[15px] border border-[#F3ECE1]">Sumbit</button>
+                    <button
+                        class="bg-[#812b11] rounded-full font-semibold text-white text-sm px-[45px] py-[15px] border border-[#F3ECE1]">Download
+                        Catalogue</button>
+                </form>
+                <p class="text-[#C3754C] text-sm">*Free samples available. T&C Applied</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- cilent trust -->
+
+    <h2 class="text-center text-[#1D4D43] text-[18px] mt-10">Trusted by over 500 clients | Over 1,00,000 orders fulfilled</h2>
+    <div class="w-[60%] ml-auto mr-auto mt-10 gap-8 items-center grid grid-cols-2 lg:grid-cols-6 md:grid-cols-6">
+        <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/image_4_2_9b905dd9-a487-4dc1-bc73-8dd0514e4d98.png?v=1714646801" alt="">
+        <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/layer1_1.png?v=1714646803" alt="" >
+        <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/layer1_2.png?v=1714646802" alt="" class=" hidden lg:block md:block">
+        <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/SKECHERS_logo_1_1.png?v=1714646802" alt="" class=" hidden lg:block md:block">
+        <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Glenmark_Pharmaceuticals_logo_1_1.png?v=1714646802" alt="" class=" hidden lg:block md:block">
+        <img src="http://cdn.shopify.com/s/files/1/0646/8327/8550/files/image_38.png?v=1714646802" alt="" class=" hidden lg:block md:block">
+        <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/image_12_c64d718e-a4b0-4ac4-b5d3-8aec4b3d6af2.png?v=1714647087" alt="" class=" size-12 hidden lg:block md:block">
+        <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Group_1.png?v=1714647087" alt="" class=" hidden lg:block md:block">
+        <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/Group_146.png?v=1714647087" alt="" class=" hidden lg:block md:block">
+        <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/pngwing_1.png?v=1714647087" alt="" class=" hidden lg:block md:block">
+        <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/image_39.png?v=1714647087" alt="" class=" hidden lg:block md:block">
+        <img src="https://cdn.shopify.com/s/files/1/0646/8327/8550/files/JITO_1_ef84928e-3f43-4b4d-ae64-2a9374d423c4.png?v=1714647087" alt="" class="size-12 hidden lg:block md:block"> 
+    </div>
+
+
+</body>
+
+</html>
